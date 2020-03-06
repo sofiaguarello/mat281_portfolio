@@ -4,7 +4,10 @@ channels:
   - defaults
 dependencies:
   - altair=3
+  - ipywidgets=7.5.1
   - jupyterlab=1.0.9
+  - jupyter_contrib_nbextensions
+  - lxml
   - matplotlib=3.1.1
   - nodejs=12.8
   - numpy=1.17.0
@@ -12,9 +15,11 @@ dependencies:
   - pandas-profiling=2.3.0
   - pip
   - python=3.7
-  - scikit-learn=0.21.3
+  - pillow=6.2.1
+  - scikit-learn=0.22
   - scipy=1.3.1
   - seaborn=0.9.0
+  - vega_datasets
   - pip:
     - datachile
 
