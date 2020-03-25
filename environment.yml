@@ -22,5 +22,6 @@ dependencies:
   - vega_datasets
   - pip:
     - datachile
+    - altair_server
 
 
